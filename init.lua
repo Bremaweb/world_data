@@ -79,7 +79,7 @@ wd.unset = function(param)
 end
 
 wd.increment = function (param, amount)
-	local val = wd.get_number(param)  + amount
+	local val = wd.get_number(param) + amount
 	wd.set(param,val)
 end
 
